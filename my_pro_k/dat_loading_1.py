@@ -11,8 +11,8 @@ print(df.index)         # index of the DataFrame
 print(df.columns)       # column names
 print(df.sample(6))     # 6 random rows
 print(df.dtypes)        # data types of columns
-print(df.shape)         # (rows, columns)
-print(df.isnull().sum())
+print(df.shape)    
 print(df.duplicated())
 print(df.duplicated().sum())
-print(df.describe())     
+print(df.describe()) 
+print(df.isnull().sum()) 
